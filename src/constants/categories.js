@@ -483,7 +483,7 @@ export const CATEGORY_KEYWORDS = {
 };
 
 export const EXAMPLE_INPUTS = [
-  "책을 1년에 24권 읽고 싶어",
-  "유럽 여행을 꼭 가보고 싶다",
+  "올해는 책 10권 이상 읽을 거야",
+  "유럽 여행을 꼭 가보고 싶어",
   "토익 900점을 목표로 공부할 거야",
 ];

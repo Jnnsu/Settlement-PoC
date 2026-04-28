@@ -36,7 +36,7 @@ const buildPrompt = (inputText) => {
 
 export const analyzeGoalWithGemini = async (inputText) => {
   const apiKey = process.env.REACT_APP_GEMINI_API_KEY || "";
-  const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${apiKey}`;
+  const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${apiKey}`;
   console.log("Gemini 호출 시작, 키 앞 10자:", apiKey.slice(0, 10));
 
   const response = await fetch(apiUrl, {

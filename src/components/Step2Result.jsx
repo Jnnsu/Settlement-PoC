@@ -146,7 +146,7 @@ export default function Step2Result({ result, setResult, onRegister }) {
 
         {/* 이모지 picker */}
         {showEmojiPicker && (
-          <div style={{ marginBottom: 16 }}>
+          <div style={{ background: "#2a2a2a", borderRadius: 12, padding: 12, marginBottom: 16 }}>
             <EmojiPicker
               category={result.category}
               selectedEmoji={result.emoji}
@@ -168,8 +168,8 @@ export default function Step2Result({ result, setResult, onRegister }) {
             style={{
               width: "100%",
               padding: "14px 16px",
-              background: "#1e1e1e",
-              border: "1px solid #2a2a2a",
+              background: "#2a2a2a",
+              border: "1px solid #333",
               borderRadius: 12,
               color: "#fff",
               fontSize: 15,
@@ -214,8 +214,8 @@ export default function Step2Result({ result, setResult, onRegister }) {
                   style={{
                     flex: 1,
                     padding: 16,
-                    background: "#1e1e1e",
-                    border: "1px solid #2a2a2a",
+                    background: "#2a2a2a",
+                    border: "1px solid #333",
                     borderRadius: 12,
                     color: "#fff",
                     fontSize: 16,
